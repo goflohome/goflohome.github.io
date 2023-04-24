@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black
+}
+
+body {
+    overflow-x: hidden;
+    font-family: Inter;
+}
+
+canvas{
+    width: 100vw;
+    height: 100vh;
+}
+
+.description {
+    font-family: Inter;
+    z-index: 2;
+    font-weight: 200;
+    position: fixed;
+    color: rgb(255 255 255);
+    font-size: 2rem;
+    left: 15%;
+    bottom: 40%;
+    transform: translate(-15%, -40%);
+    background-color: rgb(0, 0, 0, 0.00);
+    cursor: default;
+}
+
+.description2 {
+    font-family: Inter;
+    z-index: 2;
+    font-weight: 200;
+    position: fixed;
+    color: rgb(255 255 255);
+    font-size: 2rem;
+    left: 15%;
+    bottom: 40%;
+    transform: translate(-15%, -40%);
+    background-color: rgb(0, 0, 0, 0.00);
+    cursor: default;
+}
+
+.heading {
+    font-family: Inter;
+    font-weight: 800;
+    position: relative;
+    color: rgb(255, 0, 255, 1);
+    font-size: 10rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+li,a, button {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(255, 0, 255, 1);
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 30%;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 5px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+    .nav_links li a:hover {
+        color: rgb(0 60 255);
+    }
